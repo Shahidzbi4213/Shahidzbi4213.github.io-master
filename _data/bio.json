@@ -1,0 +1,97 @@
+{
+  "basics": {
+    "name": "Shahid Iqbal",
+    "label": "Software Engineer",
+    "picture": "https://avatars.githubusercontent.com/u/45350491?s=400&u=ab01e4a7532b420bbb0908bb3713f664d7d4b426&v=4",
+    "email": "shahid.iqbal",
+    "phone": "+923182626732",
+    "website": "https://shahidzbi4213.github.io",
+    "summary": "An independent and self-motivated graduate with proven and tested negotiation,mobile app development",
+    "location": {
+      "address": "Zarobi",
+      "postalCode": "23510",
+      "city": "Swabi",
+      "countryCode": "Pak",
+      "region": "KPK"
+    },
+    "profiles": [
+      {
+        "network": "github",
+        "username": "Shahidzbi4213",
+        "url": "https://github.com/Shahidzbi4213"
+      },
+      {
+        "network": "linkedin",
+        "username": "shahidzbi",
+        "url": "https://www.linkedin.com/in/shahidzbi/"
+      }
+    ]
+  },
+  "interests": [
+    {
+      "name": "software engineering",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Android",
+      "keywords": [
+        "Firebase",
+        "API",
+        "Services"
+      ]
+    },
+    {
+      "name": "artificial intelligence",
+      "keywords": [
+        "autonomous agents",
+        "emotional intelligence",
+        "emotion contagion"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "level": "",
+      "keywords": [
+        "C++",
+        "Java",
+        "Android Development"
+      ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "level": "",
+      "keywords": [
+        "Windows",
+        "Git/GitHub"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Swabi, Pakistan",
+      "area": "Computer Science",
+      "studyType": "B.S.",
+      "startDate": "2017",
+      "endDate": "2021",
+      "gpa": "3.51",
+      "courses": ["Introduction to Computer Science I & II",
+        "Discrete Mathematics for Computer Science I",
+        "Program Structure", "Algorithms", "Machine-Level and Systems Programming",
+        "Programming Language Theory", "Software Engineering I & II",
+        "Data Storage and Retrieval", "Logic Design and Microprocessors",
+        "Network Design and Management", "Computing Ethics for Lab Assistants",
+        "Computer Security and Ethics", "Computer System Security",
+        "Secure Coding", "Design for Mobile Devices"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request",
+      "reference": ""
+    }
+  ]
+}

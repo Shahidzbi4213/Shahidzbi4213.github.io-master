@@ -1,0 +1,46 @@
+<!-- Home page design with small circular image bisecting card. -->
+
+{% assign essay_pages = site.pages | where: "type", "essay"  | where_exp: "page", "page.draft != true" %}
+{% assign project_pages = site.pages | where: "type", "project" | where_exp: "page", "page.draft != true" %}
+{% assign num_essays = essay_pages.size %}
+{% assign num_projects = project_pages.size %}
+
+<div style="height: 100%" class="ui equal width three column center aligned grid">
+    <div class="stretched row">
+        <div style="background-image: url({{ site.data.bio.basics.picture }}); background-repeat: no-repeat; background-size:100%, 100%" class="black column"></div>
+
+        <div class="middle aligned column">
+            <h1 class="ui header">
+                {{ site.data.bio.basics.name }}
+                <div class="sub header">{{ site.data.bio.basics.label }}</div>
+            </h1>
+            <h4 style="margin-bottom:100px; margin-top: 100px" class="ui header">{{ site.data.bio.basics.summary }}</h4>
+            <p style="font-style: italic; font-size:80%">"For eternally and always there is only now, one and the same now, the present is the only thing that has no end." -Alan Watts</p>
+            <p style="font-style: italic; font-size:80%">"Life isn't about finding your passion. It's about having an adventure." -Unnamed Quora user</p>
+            <p style="font-style: italic; font-size:80%">"Happiness is not a destination. It's a way of life." -Unnamed Quora user</p>
+            <p style="font-style: italic; font-size:80%">"Let your smile change the world. Don't let the world change your smile." -Unknown</p>
+            <p style="font-style: italic; font-size:80%">"I mean, they say you die twice. One time when you stop breathing and a second time, a little bit later on, when somebody says your name for the last time." -Banksy</p>
+        </div>
+
+        <div class="black column">
+                <div class="ui one column center aligned relaxed grid">
+                    <div class="middle aligned column">
+                        <div class="ui vertical inverted basic huge buttons">
+                            <a href="{{ site.baseurl}}/bio/">
+                                <button style="margin-bottom: 10px" class="ui inverted basic huge button">{{ site.bio-page-label }}</button>
+                            </a>
+                            <a href="{{ site.baseurl}}/projects/">
+                                <button style="margin-bottom: 10px" class="ui inverted basic huge button">PROJECTS</button>
+                            </a>
+                            <a href="{{ site.baseurl}}/essays/">
+                                <button style="margin-bottom: 10px" class="ui inverted basic huge button">BLOG</button>
+                            </a>
+                        </div>
+                        <div style="margin-top:10px" class="center aligned extra content">
+                            {% include home-network-links.html %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
